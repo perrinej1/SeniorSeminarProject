@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet"href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+  </head>
+
+  <body>
+
+    <!-- creating a navbar -->
+    <nav class="navbar navbar-expand-md" style="background-color: #fbfbf8;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <!-- image provided by bootstrap...
+               find a way to get another image in. -->
+          <img src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top"/>
+          HMH
+        </a>
+
+
+        <!-- creates navbar hamburger. -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- creates the clickable options in navbar -->
+        <div class="collapse navbar-collapse justivy-content-end align-center" id="main-nav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <!-- creates group dropdown list -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Groups</a>
+            </li>
+
+            <!-- continuing with more clickable options -->
+            <li class="nav-item">
+              <a class="nav-link" href="#">Journal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Notes</a>
+            </li>
+          </ul>
+
+          <!-- creating search bar -->
+          <from class="d-flex" role="search">
+            <input class="from-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </from>
+        </div>
+      </div>
+    </nav>
+
+    <!-- heading -->
+    <h1 class="display-6 text-center my-2">Welcome Josh (users name)</h1>
+
+    <!-- containers for different home things -->
+    <div class="container-lg my-2">
+      <div class="row justify-content-center">
+
+        <!-- About the app section -->
+        <div class="col-md-6">
+          <div class="p-5" style="background-color: #fbfbf8;">
+            <p class="lead">Doctors Notes:</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+
+        <!-- Users profile area -->
+        <div class="col-md-6">
+          <div class="p-5" style="background-color: #fbfbf8;">
+            <p class="lead">Profile</p>
+            <p>Name: Josh Perrine</p>
+            <p>Email: perrinej1@xavier.edu</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Reason in hospital: Kidney transplant</p>
+          </div>
+        </div>
+
+        <!-- for suicide hotline -->
+        <div class="col-md-6">
+          <div class="p-5 text-center" style="background-color: #fbfbf8;">
+            <button type="button" class="btn btn-warning">Suicide Hotline</button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Another container for more things -->
+    <div class="container-lg my-2">
+      <div class="row justify-content-center">
+
+        <!-- section for doctors notes -->
+        <div class="col-md-6">
+          <div class="p-5" style="background-color: #fbfbf8;">
+            <p class="lead">About the app:</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </body>
+
+</html>
